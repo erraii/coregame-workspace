@@ -1,0 +1,38 @@
+{
+  "created_utc": "20261024T174006Z",
+  "repository": "erraii/coregame-workspace",
+  "branch": "dev",
+  "release_available": false,
+  "reason": "No GitHub Release tool/gh CLI/API token; HTTPS credential helper did not provide an API credential. SSH Git transport is available.",
+  "source_bundle": "preserved/recovery-20261024T174006Z/source-recovery.tar.gz",
+  "source_bundle_bytes": 17197708,
+  "source_file_count": 11996,
+  "independent_benchmark_replays": 60,
+  "v3_smoke_replays": 24,
+  "all_84_required_replays_in_source_bundle": true,
+  "full_runtime_local_only": "logs/recovery-backup-20261024T174006Z/full-runtime-recovery.tar.gz",
+  "full_runtime_bytes": 65950837,
+  "full_file_count": 12299,
+  "excluded_from_git": [
+    "compiled binaries/static libraries/object files/build caches",
+    "credentials and agent sessions",
+    "bulk console/server logs and test scratch directories",
+    "CODEX_HANDOFF.txt",
+    ".vscode/settings.json local edit",
+    "CORE_GAME_FRESH_SETUP.md local path edit"
+  ],
+  "source_only_resume_limit": "Archived checkpoints and seals are unchanged, but binary/runtime files are absent from the Git bundle. Strict resume and V3 baseline verification need the full local runtime archive plus a matching compiler/runtime. Do not alter hashes/checksums.",
+  "runs": [
+    "logs/evolution-hour-002",
+    "logs/evolution-hour-001",
+    "logs/evolution-smoke-20261024",
+    "logs/evolution-v2-smoke-20261024",
+    "logs/selfplay-verified",
+    "logs/evolution-v3-ready-20261024",
+    "logs/evolution-smoke2-20261024",
+    "logs/training-dMjjVC",
+    "logs/evolution-v3-initialized-20261024",
+    "logs/training-PoAABA",
+    "logs/selfplay-20261024-economy"
+  ]
+}

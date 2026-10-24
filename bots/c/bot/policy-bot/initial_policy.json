@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "features": [
+    "bias",
+    "bank",
+    "own_units",
+    "enemy_units",
+    "own_core_hp",
+    "enemy_core_hp",
+    "enemy_threat",
+    "ticks"
+  ],
+  "actions": [
+    "light",
+    "healthy",
+    "armored",
+    "wait"
+  ],
+  "weights": [
+    [
+      0.4,
+      -0.1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0.3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      -0.4,
+      0.5,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      -0.8,
+      -0.5,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "costs": [
+    35,
+    47,
+    65,
+    0
+  ]
+}

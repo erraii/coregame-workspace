@@ -7,7 +7,10 @@ using nlohmann::json_schema::json_validator;
 
 Game::Game(std::vector<unsigned int> team_ids)
 {
-	shuffle_vector(team_ids); // randomly assign core positions to ensure fairness
+	// Keep side assignment reproducible for local seeded comparisons.
+	std::sort(team_ids.begin(), team_ids.end());
+	std::mt19937_64 placementGenerator(Config::game().seed);
+	std::shuffle(team_ids.begin(), team_ids.end(), placementGenerator);
 	for (unsigned int i = 0; i < team_ids.size(); ++i)
 		Board::instance().addObject<Core>(Core(team_ids[i]), Config::getCorePosition(i), true);
 

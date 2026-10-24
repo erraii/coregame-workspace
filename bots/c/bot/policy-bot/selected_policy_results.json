@@ -1,0 +1,389 @@
+{
+  "date": "2026-10-24",
+  "summary": {
+    "initial_training_score": 0.50418,
+    "best_training_score": 0.50418,
+    "accepted_candidates": 0,
+    "candidates_tested": 2,
+    "initial_validation_score": 0.50418,
+    "best_validation_score": 0.50418,
+    "validation_delta": 0,
+    "model": "logs/training-PoAABA/best_policy.json",
+    "exported_header": "bots/c/bot/policy-bot/inc/policy_weights.h",
+    "policy_scope": "A 4x8 linear policy selects attacker design or wait; movement remains handwritten.",
+    "method": "Stochastic hill climbing from full-match feedback, not gradient-based reinforcement learning.",
+    "note": "A training score increase does not establish generalization. No improvement is also a valid result.",
+    "published_replay": "logs/evaluation-KPkh64/0001/replay_latest.json",
+    "portable_model": "bots/c/bot/policy-bot/selected_policy.json"
+  },
+  "repeated_smoke_test": {
+    "total": 6,
+    "completed": 6,
+    "failed": 0,
+    "wins_a": 3,
+    "losses_a": 3,
+    "combat_matches": 6,
+    "timeout_tiebreaks": 0,
+    "random_tiebreaks": 0,
+    "repeat_consistency": [
+      {
+        "seed": "eval-101",
+        "a_team_id": 42,
+        "completed": 3,
+        "consistent": true
+      },
+      {
+        "seed": "eval-101",
+        "a_team_id": 418,
+        "completed": 3,
+        "consistent": true
+      }
+    ],
+    "note": "No draws inferred. Game-limit tiebreaks are not combat victories. This run does not train a model."
+  },
+  "binaries": {
+    "server/server": "2f6d676e7d9c8800309df7b4982074c99cb773c39a342e15221dfdf7d352d9ba",
+    "bots/c/bot/policy-bot/bot": "2851156c4383a3060e7c2f0f6f82fb7afa1f7178614849b55be63ce23f8fa3f0",
+    "bots/c/bot/gridmaster/bot": "6968a2a8ddc7e829f4310c85df5c26657a61a0e3ffffd5980a4d6b0b08bb2a81"
+  },
+  "evaluations": [
+    {
+      "label": "initial-training",
+      "score": 0.50418,
+      "matches": [
+        {
+          "seed": "train-001",
+          "a_team_id": 42,
+          "status": "completed",
+          "outcome_a": "loss",
+          "winner_team_id": 418,
+          "decision": "combat",
+          "final_tick": 164,
+          "initial_cores": [
+            {
+              "team_id": 42,
+              "x": 19,
+              "y": 19
+            },
+            {
+              "team_id": 418,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "initial_layout_sha256": "fe22a50ecb7f1db7c2f9810799abcc5d71a16627f064b22980e280e79cc0de1b"
+        },
+        {
+          "seed": "train-001",
+          "a_team_id": 418,
+          "status": "completed",
+          "outcome_a": "win",
+          "winner_team_id": 418,
+          "decision": "combat",
+          "final_tick": 164,
+          "initial_cores": [
+            {
+              "team_id": 42,
+              "x": 19,
+              "y": 19
+            },
+            {
+              "team_id": 418,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "initial_layout_sha256": "fe22a50ecb7f1db7c2f9810799abcc5d71a16627f064b22980e280e79cc0de1b"
+        }
+      ]
+    },
+    {
+      "label": "candidate-001",
+      "score": 0.50418,
+      "matches": [
+        {
+          "seed": "train-001",
+          "a_team_id": 42,
+          "status": "completed",
+          "outcome_a": "loss",
+          "winner_team_id": 418,
+          "decision": "combat",
+          "final_tick": 164,
+          "initial_cores": [
+            {
+              "team_id": 42,
+              "x": 19,
+              "y": 19
+            },
+            {
+              "team_id": 418,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "initial_layout_sha256": "fe22a50ecb7f1db7c2f9810799abcc5d71a16627f064b22980e280e79cc0de1b"
+        },
+        {
+          "seed": "train-001",
+          "a_team_id": 418,
+          "status": "completed",
+          "outcome_a": "win",
+          "winner_team_id": 418,
+          "decision": "combat",
+          "final_tick": 164,
+          "initial_cores": [
+            {
+              "team_id": 42,
+              "x": 19,
+              "y": 19
+            },
+            {
+              "team_id": 418,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "initial_layout_sha256": "fe22a50ecb7f1db7c2f9810799abcc5d71a16627f064b22980e280e79cc0de1b"
+        }
+      ]
+    },
+    {
+      "label": "candidate-002",
+      "score": 0.50418,
+      "matches": [
+        {
+          "seed": "train-001",
+          "a_team_id": 42,
+          "status": "completed",
+          "outcome_a": "loss",
+          "winner_team_id": 418,
+          "decision": "combat",
+          "final_tick": 164,
+          "initial_cores": [
+            {
+              "team_id": 42,
+              "x": 19,
+              "y": 19
+            },
+            {
+              "team_id": 418,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "initial_layout_sha256": "fe22a50ecb7f1db7c2f9810799abcc5d71a16627f064b22980e280e79cc0de1b"
+        },
+        {
+          "seed": "train-001",
+          "a_team_id": 418,
+          "status": "completed",
+          "outcome_a": "win",
+          "winner_team_id": 418,
+          "decision": "combat",
+          "final_tick": 164,
+          "initial_cores": [
+            {
+              "team_id": 42,
+              "x": 19,
+              "y": 19
+            },
+            {
+              "team_id": 418,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "initial_layout_sha256": "fe22a50ecb7f1db7c2f9810799abcc5d71a16627f064b22980e280e79cc0de1b"
+        }
+      ]
+    },
+    {
+      "label": "initial-validation",
+      "score": 0.50418,
+      "matches": [
+        {
+          "seed": "eval-101",
+          "a_team_id": 42,
+          "status": "completed",
+          "outcome_a": "loss",
+          "winner_team_id": 418,
+          "decision": "combat",
+          "final_tick": 164,
+          "initial_cores": [
+            {
+              "team_id": 42,
+              "x": 19,
+              "y": 19
+            },
+            {
+              "team_id": 418,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "initial_layout_sha256": "850b6620c297b4f9acec0c476d7d04368664f9b69743c419015887306391ebc4"
+        },
+        {
+          "seed": "eval-101",
+          "a_team_id": 418,
+          "status": "completed",
+          "outcome_a": "win",
+          "winner_team_id": 418,
+          "decision": "combat",
+          "final_tick": 164,
+          "initial_cores": [
+            {
+              "team_id": 42,
+              "x": 19,
+              "y": 19
+            },
+            {
+              "team_id": 418,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "initial_layout_sha256": "850b6620c297b4f9acec0c476d7d04368664f9b69743c419015887306391ebc4"
+        },
+        {
+          "seed": "eval-102",
+          "a_team_id": 42,
+          "status": "completed",
+          "outcome_a": "loss",
+          "winner_team_id": 418,
+          "decision": "combat",
+          "final_tick": 164,
+          "initial_cores": [
+            {
+              "team_id": 42,
+              "x": 19,
+              "y": 19
+            },
+            {
+              "team_id": 418,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "initial_layout_sha256": "7d8f6655f3c9a125b86c83e814f40712c3978628fb22c959036af11a0481ed35"
+        },
+        {
+          "seed": "eval-102",
+          "a_team_id": 418,
+          "status": "completed",
+          "outcome_a": "win",
+          "winner_team_id": 418,
+          "decision": "combat",
+          "final_tick": 164,
+          "initial_cores": [
+            {
+              "team_id": 42,
+              "x": 19,
+              "y": 19
+            },
+            {
+              "team_id": 418,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "initial_layout_sha256": "7d8f6655f3c9a125b86c83e814f40712c3978628fb22c959036af11a0481ed35"
+        }
+      ]
+    },
+    {
+      "label": "best-validation",
+      "score": 0.50418,
+      "matches": [
+        {
+          "seed": "eval-101",
+          "a_team_id": 42,
+          "status": "completed",
+          "outcome_a": "loss",
+          "winner_team_id": 418,
+          "decision": "combat",
+          "final_tick": 164,
+          "initial_cores": [
+            {
+              "team_id": 42,
+              "x": 19,
+              "y": 19
+            },
+            {
+              "team_id": 418,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "initial_layout_sha256": "850b6620c297b4f9acec0c476d7d04368664f9b69743c419015887306391ebc4"
+        },
+        {
+          "seed": "eval-101",
+          "a_team_id": 418,
+          "status": "completed",
+          "outcome_a": "win",
+          "winner_team_id": 418,
+          "decision": "combat",
+          "final_tick": 164,
+          "initial_cores": [
+            {
+              "team_id": 42,
+              "x": 19,
+              "y": 19
+            },
+            {
+              "team_id": 418,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "initial_layout_sha256": "850b6620c297b4f9acec0c476d7d04368664f9b69743c419015887306391ebc4"
+        },
+        {
+          "seed": "eval-102",
+          "a_team_id": 42,
+          "status": "completed",
+          "outcome_a": "loss",
+          "winner_team_id": 418,
+          "decision": "combat",
+          "final_tick": 164,
+          "initial_cores": [
+            {
+              "team_id": 42,
+              "x": 19,
+              "y": 19
+            },
+            {
+              "team_id": 418,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "initial_layout_sha256": "7d8f6655f3c9a125b86c83e814f40712c3978628fb22c959036af11a0481ed35"
+        },
+        {
+          "seed": "eval-102",
+          "a_team_id": 418,
+          "status": "completed",
+          "outcome_a": "win",
+          "winner_team_id": 418,
+          "decision": "combat",
+          "final_tick": 164,
+          "initial_cores": [
+            {
+              "team_id": 42,
+              "x": 19,
+              "y": 19
+            },
+            {
+              "team_id": 418,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "initial_layout_sha256": "7d8f6655f3c9a125b86c83e814f40712c3978628fb22c959036af11a0481ed35"
+        }
+      ]
+    }
+  ]
+}

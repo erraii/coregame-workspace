@@ -1,0 +1,15 @@
+{
+  "verified_source": "logs/tactical-carrier-analysis/experiment-glS5Xk/no-carrier",
+  "source_sha256": "17494b2d52934ed5af7f7f98d041f0cdcade9a7b1f7c03a7c0d0345c6fc42976",
+  "files": {
+    "src/strategy.c": "3b79529b3d256a8ab90c3e57531f5e4de0f7b762a3e0073bae7baad78c397051",
+    "src/main.c": "ea87e6eb0af2b27fb6df26578feb377a1a8205bc6bb112be10a1d4b3ab5846a5",
+    "inc/strategy_params.h": "4a2600521e9951a9ae04129e221c3739e9636f69a444ea485e6a7e49685798de",
+    "inc/tactics.h": "9f9a0fde7117ea8c8ca9c0fc8bff0dbc99915e4b66d52284a46378600d9d3bef",
+    "inc/strategy.h": "b0f9de0dcdbe9636f6b4f644970804da40d63c88f03ae7a6595e240e5feff551",
+    "Makefile": "08fe5ac78c6f3fc941a70394653de31df7bdbbfe6c51ac9f96faf0f2df3599ce"
+  },
+  "baseline_flags": "-Wall -Wextra -Werror -g -fsanitize=address -DENABLE_CARRIERS=0",
+  "evolution_flags": "-Wall -Wextra -Werror -O2 -fsanitize=address",
+  "note": "Derived implementation, not behavior-identical. Exact tactical baseline remains a frozen opponent."
+}

@@ -1,0 +1,14 @@
+{
+  "source-recovery.tar.gz": {
+    "members_verified": 11996,
+    "original_files_unchanged": true,
+    "bytes": 17197708,
+    "sha256": "6fa2da12912dc975954ad5bd7cd0316d373983c82e1001b4aa914671d81d1234"
+  },
+  "full-runtime-recovery.tar.gz": {
+    "members_verified": 12299,
+    "original_files_unchanged": true,
+    "bytes": 65950837,
+    "sha256": "9ac45ee2c6ee40b14e52e2afad4451a7b2a01a54420005d3023f5476c3317f88"
+  }
+}

@@ -1,0 +1,389 @@
+[
+  {
+    "run": "logs/evolution-hour-002",
+    "version": 1,
+    "status": "paused",
+    "champion": "13ae14da4b8d3c0a13a5a77559155700dfeccace17e16939ad787f0d7eb3db38",
+    "iteration": 30,
+    "snapshots": 30,
+    "snapshot_ids": [
+      "fbf6f25a4d9cb3c5973ff456654e0a14304b60e4409d0220178593f422d81a8a",
+      "8473042b4966ba9d75e37423f1db064c7a0c565ff86aa26a5b2e0f9e5b08b0fc",
+      "f1e7109a8ab401c92361bcf260261139c551256b4863fe0560759cc1b051c4ef",
+      "e539c7dc8871fff608df8e7316c53b2d4f922456037956d3a7c6f0b23fbeb4bc",
+      "adf2a473c462177dc5dcc5ab242b2f9d8d19ef510fbd5dd1303d6b1d30a3dc53",
+      "75e16f87548332b4378638848331aee790f40c323d263338f12b26bca4555a4c",
+      "4e16312932bc0bc753d74e7d1273ff11e226bed8857cdfce1c7ee506efe72fd4",
+      "f00215e368bb7a216dd382fa3decd17fe9e806e28c68f8ce503a08337bdd8129",
+      "c71200e632300235188225da43957905a4592427e6e5353e7fdba8ee89f073bd",
+      "2b9850a24ef8eae9520295fbb43161b9c24650cffabbc98f5485107299e07bc0",
+      "707008f0f3d9dd343516bf8c7cfe076a3356b11346f64b2eabb1ae33267856dc",
+      "4fe5537338cc942f6d055be1692f56e002abcd3ec18403b18bbcff75eaafd393",
+      "7f8275ac0c46d7be2fb9d946bd54f3b19cdd2411ca79f63e516d5c33f6e3de35",
+      "13ae14da4b8d3c0a13a5a77559155700dfeccace17e16939ad787f0d7eb3db38",
+      "1e76500154a269dcd02e924d0bdc35fd643242a12f0c6062356ed09ca9feeab2",
+      "b4fe908b5ab2b5173c1852b28c74b7f7001c4d73aeca98601cdf17ebaf666710",
+      "d4014e13367cbfaac088d2bc0220adf2b90a3039b786dd721b198865dff617e5",
+      "f90e0eb3a21f424cce5c177394278d797625d2a6734ba26fa07ae0fa59d854d0",
+      "a8c262ebc5b156435c85efd0fd29b0625c564c735059b693ab70939b6500d146",
+      "59e7c464241cb8dde2fa6f7e45b83dffb8db218af3a0ff9b65e912f2d37e1c2a",
+      "8be62a2db82a99b20f6149a8f9213cd7eb4f9c7654633792b49b361456ce4621",
+      "cc4a1462a4cc71e4d5efcab03ac4cc3f9d361f622cf138c68d75ec47167b07a8",
+      "29ead28e1e8ec1cc6a2a89c6ac9a2f54a93bd97e0a7f31be0970b380b3a267c0",
+      "0d457eb4607c972a4c36ead6e13ee8bbc5949e910bacf75e67bb3e0ae6e6e451",
+      "228ef0013c01959eb9748c6fdf39bdc27c6a9a1861383f0f17df8648fb39c191",
+      "561d45b77ca72c97b94a14da50bc608c0a694fa8e80668ce8e13f6842856267d",
+      "36197187945beec25da437a492f1d673ac178ec624ba50c2a915d2572726b183",
+      "32971407af6cedd4635aec17ee39655479892b2431c6b3f78b748ec1b196662a",
+      "f8e812f0e8135e6457571ac0e7f294d31528892611ee231fe5b6543ded3f30b5",
+      "f0612c89fc845031c74532e8bece44acb6f66afeb4b0f40e6e1cb67f2a7e5b84"
+    ],
+    "identity": {
+      "files": {
+        "tools/evolution.mjs": "968b9cea8cdfb5fc73db7af5ccd1a4fe85adf9c68be09798a8428d01784109df",
+        "tools/evolution-core.mjs": "8d06a61b260961dc9aad468ad3cf21bd7732a675ee03587b1ed53ebd8ad57210",
+        "tools/evolution-policy.mjs": "d2a0f3b94785e9726e883655564f38d3fcd54bf1fe087c0fe4574303b9a998cc",
+        "tools/evolution-probe.c": "349ecb77d34f0a2e6db76cc4a60cb7ceb18521f5e870e6fff0d93639355dd9c9",
+        "tools/evaluate.mjs": "aba78c7c42ceccb468d3aab3c7f5dbfd2edef4db5f7c519f2f25df5cb3790144",
+        "tools/selfplay-core.mjs": "293a2c005522f68efd691fffdd17c6cf668433e908f5b595bca2891f2901b15e",
+        "tools/strategy-model.mjs": "7412b62c02897f6d9b1197f33db43a15b0628096ea3a3d8806637f9fda229a84",
+        "bots/configs/fake_demo/game.config.json": "5a68e07dab6235844537b9ef0abdbe764561196646b3e8f892235fd6fedbfc1c",
+        "bots/configs/fake_demo/server.config.json": "9f336d3870828bfcd6b2e8ad095271e0001f97e7d5482e802468f3ead2ef70e1",
+        "bots/c/client_lib/core_lib.a": "3639314b3bd52f10c332517fcfe2c5d1c6c7266fbf482b533953476cde14ecd0",
+        "server/server": "2f6d676e7d9c8800309df7b4982074c99cb773c39a342e15221dfdf7d352d9ba"
+      },
+      "source": "8b5b0981cb139d2ee4a13f136a0716c2ea470a7da95e709ba79b7ca8c1ffd4c4",
+      "flags": "-Wall -Wextra -Werror -O2 -fsanitize=address",
+      "compiler": "cc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0\nCopyright (C) 2023 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n",
+      "runtime": "a57e0fe7960785fc94b1e9a56630f927fedd50b3c3c8e604935a90ca23acbc76"
+    },
+    "finalized": null
+  },
+  {
+    "run": "logs/evolution-hour-001",
+    "version": 1,
+    "status": "idle",
+    "champion": "e539c7dc8871fff608df8e7316c53b2d4f922456037956d3a7c6f0b23fbeb4bc",
+    "iteration": 25,
+    "snapshots": 27,
+    "snapshot_ids": [
+      "fbf6f25a4d9cb3c5973ff456654e0a14304b60e4409d0220178593f422d81a8a",
+      "8473042b4966ba9d75e37423f1db064c7a0c565ff86aa26a5b2e0f9e5b08b0fc",
+      "f1e7109a8ab401c92361bcf260261139c551256b4863fe0560759cc1b051c4ef",
+      "e539c7dc8871fff608df8e7316c53b2d4f922456037956d3a7c6f0b23fbeb4bc",
+      "9d06d3fc16d217351c23f72f9ce16fcac26a2652d90453f207124c6cbeefe30a",
+      "30daf90da318d53009f05d744fdd836792f416e7ebc7b4186b80f5937fafb96d",
+      "e6ee82a4565ddb1895ed87f0aacc47314390a5c63655597910d75a701c7a2efa",
+      "e29b9a98eca332267c87b75a27ebd0c33ede5c767c40df859fcf322754956169",
+      "24effd33880c441ab3b39113c1a4bfc8f41729b6fc0c682a2fff839dff5e0cc8",
+      "7443ad2efd54bf81abe82527e57528121d3a6b6e849fa2ccadad9f7d38546185",
+      "9e59cc4fc65c58f62622529f8fd8be0afff7fe3ba9a8f6124139ef841e428153",
+      "cb108d8afae0a45f213edf1c4241dd887ee5b46036acd3c6f33dd19f0fe76c16",
+      "eda87063c30bba74b299b6401b85069162d9857a5fd01906eb367d7bdaad105d",
+      "9e3f5144783e3bf3bcf5f5df7ea60f7c742bef59ec48c9f195f54813e04259bc",
+      "3b02e7565ac262ad25d76800dc08ba28bbb3f1f106725a472979afcccee18e58",
+      "58c2989462b39779b9a776b72653d46182b3d10f5f0e64df16f40d612d6263d5",
+      "f00215e368bb7a216dd382fa3decd17fe9e806e28c68f8ce503a08337bdd8129",
+      "ed64a890b4238757844ded35e63fba79b3160b7a2940672fccd67c6979d51a1b",
+      "78aa7524bff0cbcf5aa299f44cdcb66ee62e4b3c7e534817999ff07972047a9e",
+      "fb63b604bdd1f53878b986281646158e70291c623cb1b30936e3cfb4e48a2b6b",
+      "edb9f82529d23eff266ad88dfb1b54a7f3881c4833e782bd667b2b3e6edd4037",
+      "665576f84dd9fdd3092edd8a72405b89930d35979f0e821680832ba0748352fd",
+      "87bc3f2936adfdc1240f543746a2fc85696b0a9299fbf7afa987d22515e0af03",
+      "f49e47ecccad3feda7ff419bb96026c8d9d18befe96b4c373c3dec9ada6f02f1",
+      "a06e8afd0d47bd32ab5f163c2eeb61f17634ff97309aea38d8bed090bc71f57c",
+      "ceaac9423701ff09ab4f956b0d49d8c737328ba4ce9aa27d7674fa420fb2b46d",
+      "c463a83741f85a1ce34d46d427d25ea302f9ea50544fbf5ea4f08a30374e9198"
+    ],
+    "identity": {
+      "files": {
+        "tools/evolution.mjs": "9b3ca7ed82624a7191a1b8f0b3e0d934fbbfcb0e0e7a7777efbe0eb2f57044b6",
+        "tools/evolution-core.mjs": "372b33fad6e8881dde133a56a4f25940e0489161db34433d920126e7667e791b",
+        "tools/evolution-policy.mjs": "334d690fd2ece8046ffd387cb08ce88c22baea3537ae8929b28ff5f68f9236ff",
+        "tools/evolution-probe.c": "349ecb77d34f0a2e6db76cc4a60cb7ceb18521f5e870e6fff0d93639355dd9c9",
+        "tools/evaluate.mjs": "aba78c7c42ceccb468d3aab3c7f5dbfd2edef4db5f7c519f2f25df5cb3790144",
+        "tools/selfplay-core.mjs": "293a2c005522f68efd691fffdd17c6cf668433e908f5b595bca2891f2901b15e",
+        "tools/strategy-model.mjs": "7412b62c02897f6d9b1197f33db43a15b0628096ea3a3d8806637f9fda229a84",
+        "bots/configs/fake_demo/game.config.json": "5a68e07dab6235844537b9ef0abdbe764561196646b3e8f892235fd6fedbfc1c",
+        "bots/configs/fake_demo/server.config.json": "9f336d3870828bfcd6b2e8ad095271e0001f97e7d5482e802468f3ead2ef70e1",
+        "bots/c/client_lib/core_lib.a": "3639314b3bd52f10c332517fcfe2c5d1c6c7266fbf482b533953476cde14ecd0",
+        "server/server": "2f6d676e7d9c8800309df7b4982074c99cb773c39a342e15221dfdf7d352d9ba"
+      },
+      "source": "8b5b0981cb139d2ee4a13f136a0716c2ea470a7da95e709ba79b7ca8c1ffd4c4",
+      "flags": "-Wall -Wextra -Werror -O2 -fsanitize=address",
+      "compiler": "cc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0\nCopyright (C) 2023 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n",
+      "runtime": "f6931da877c0e6be2c808ca1619a2c8540f25fe680c4585b3b6ddac7cdc46bd5"
+    },
+    "finalized": null
+  },
+  {
+    "run": "logs/evolution-smoke-20261024",
+    "version": 1,
+    "status": "error",
+    "champion": null,
+    "iteration": 0,
+    "snapshots": 0,
+    "snapshot_ids": [],
+    "identity": {
+      "files": {
+        "tools/evolution.mjs": "cf204b6752d4dda79b9fa66ccb13866d302f43793ae78ee3d2b20ae1dc2cf431",
+        "tools/evolution-core.mjs": "372b33fad6e8881dde133a56a4f25940e0489161db34433d920126e7667e791b",
+        "tools/evolution-policy.mjs": "334d690fd2ece8046ffd387cb08ce88c22baea3537ae8929b28ff5f68f9236ff",
+        "tools/evolution-probe.c": "349ecb77d34f0a2e6db76cc4a60cb7ceb18521f5e870e6fff0d93639355dd9c9",
+        "tools/evaluate.mjs": "aba78c7c42ceccb468d3aab3c7f5dbfd2edef4db5f7c519f2f25df5cb3790144",
+        "tools/selfplay-core.mjs": "293a2c005522f68efd691fffdd17c6cf668433e908f5b595bca2891f2901b15e",
+        "tools/strategy-model.mjs": "7412b62c02897f6d9b1197f33db43a15b0628096ea3a3d8806637f9fda229a84",
+        "bots/configs/fake_demo/game.config.json": "5a68e07dab6235844537b9ef0abdbe764561196646b3e8f892235fd6fedbfc1c",
+        "bots/configs/fake_demo/server.config.json": "9f336d3870828bfcd6b2e8ad095271e0001f97e7d5482e802468f3ead2ef70e1",
+        "bots/c/client_lib/core_lib.a": "3639314b3bd52f10c332517fcfe2c5d1c6c7266fbf482b533953476cde14ecd0",
+        "server/server": "2f6d676e7d9c8800309df7b4982074c99cb773c39a342e15221dfdf7d352d9ba"
+      },
+      "source": "8b5b0981cb139d2ee4a13f136a0716c2ea470a7da95e709ba79b7ca8c1ffd4c4",
+      "flags": "-Wall -Wextra -Werror -O2 -fsanitize=address",
+      "compiler": "cc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0\nCopyright (C) 2023 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n"
+    },
+    "finalized": null
+  },
+  {
+    "run": "logs/evolution-v2-smoke-20261024",
+    "version": 1,
+    "status": "idle",
+    "champion": "e539c7dc8871fff608df8e7316c53b2d4f922456037956d3a7c6f0b23fbeb4bc",
+    "iteration": 1,
+    "snapshots": 5,
+    "snapshot_ids": [
+      "fbf6f25a4d9cb3c5973ff456654e0a14304b60e4409d0220178593f422d81a8a",
+      "8473042b4966ba9d75e37423f1db064c7a0c565ff86aa26a5b2e0f9e5b08b0fc",
+      "f1e7109a8ab401c92361bcf260261139c551256b4863fe0560759cc1b051c4ef",
+      "e539c7dc8871fff608df8e7316c53b2d4f922456037956d3a7c6f0b23fbeb4bc",
+      "adf2a473c462177dc5dcc5ab242b2f9d8d19ef510fbd5dd1303d6b1d30a3dc53"
+    ],
+    "identity": {
+      "files": {
+        "tools/evolution.mjs": "968b9cea8cdfb5fc73db7af5ccd1a4fe85adf9c68be09798a8428d01784109df",
+        "tools/evolution-core.mjs": "8d06a61b260961dc9aad468ad3cf21bd7732a675ee03587b1ed53ebd8ad57210",
+        "tools/evolution-policy.mjs": "d2a0f3b94785e9726e883655564f38d3fcd54bf1fe087c0fe4574303b9a998cc",
+        "tools/evolution-probe.c": "349ecb77d34f0a2e6db76cc4a60cb7ceb18521f5e870e6fff0d93639355dd9c9",
+        "tools/evaluate.mjs": "aba78c7c42ceccb468d3aab3c7f5dbfd2edef4db5f7c519f2f25df5cb3790144",
+        "tools/selfplay-core.mjs": "293a2c005522f68efd691fffdd17c6cf668433e908f5b595bca2891f2901b15e",
+        "tools/strategy-model.mjs": "7412b62c02897f6d9b1197f33db43a15b0628096ea3a3d8806637f9fda229a84",
+        "bots/configs/fake_demo/game.config.json": "5a68e07dab6235844537b9ef0abdbe764561196646b3e8f892235fd6fedbfc1c",
+        "bots/configs/fake_demo/server.config.json": "9f336d3870828bfcd6b2e8ad095271e0001f97e7d5482e802468f3ead2ef70e1",
+        "bots/c/client_lib/core_lib.a": "3639314b3bd52f10c332517fcfe2c5d1c6c7266fbf482b533953476cde14ecd0",
+        "server/server": "2f6d676e7d9c8800309df7b4982074c99cb773c39a342e15221dfdf7d352d9ba"
+      },
+      "source": "8b5b0981cb139d2ee4a13f136a0716c2ea470a7da95e709ba79b7ca8c1ffd4c4",
+      "flags": "-Wall -Wextra -Werror -O2 -fsanitize=address",
+      "compiler": "cc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0\nCopyright (C) 2023 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n",
+      "runtime": "a57e0fe7960785fc94b1e9a56630f927fedd50b3c3c8e604935a90ca23acbc76"
+    },
+    "finalized": null
+  },
+  {
+    "run": "logs/selfplay-verified",
+    "version": 1,
+    "status": null,
+    "champion": "643ea3ca4a9f464bd2428ebe7c13a9fe5a8e33b27ee00ab2b59c4f6904a7a163",
+    "iteration": 1,
+    "snapshots": 4,
+    "snapshot_ids": [
+      "a7286ae74958c10d91039b11a4bf634ead6a7ca5e3d1c3cf5c12d1adac33cc3a",
+      "2e415c0d7c58412d8c7a292f777f05e1eec5b8c177eb1166c5b4a2234636b225",
+      "643ea3ca4a9f464bd2428ebe7c13a9fe5a8e33b27ee00ab2b59c4f6904a7a163",
+      "29c19372421388d99210f7ee61f173e960bebbf8a26d4f42c00fa48797b0af1d"
+    ],
+    "identity": {
+      "strategy": "a017265eec31847da07f66b4f6fb4813fd79c2f707c0a7d4ba5d1fd998feff6f",
+      "baseline": "2750f44359f7ec175c4318cd817ea73c805d6a60e2ee45bf49ad0e4c2fb3fd0d",
+      "gridmaster": "dd1bfbb4dbc145f08a3a010173e3ddefe18c912226a19b60848555d24986f592",
+      "tools": "4b1f2e6767732da8d18b784ba5552603be09f53234c7031adf264d9f889a079f",
+      "game": "5a68e07dab6235844537b9ef0abdbe764561196646b3e8f892235fd6fedbfc1c",
+      "server_config": "9f336d3870828bfcd6b2e8ad095271e0001f97e7d5482e802468f3ead2ef70e1",
+      "engine": "2f6d676e7d9c8800309df7b4982074c99cb773c39a342e15221dfdf7d352d9ba",
+      "client": "3639314b3bd52f10c332517fcfe2c5d1c6c7266fbf482b533953476cde14ecd0"
+    },
+    "finalized": true
+  },
+  {
+    "run": "logs/evolution-v3-ready-20261024",
+    "version": 3,
+    "status": "paused",
+    "champion": "661916b9726df597b051428ed1e5489375dd69a1b8ba20687dfc95766fecd840",
+    "iteration": 0,
+    "snapshots": 6,
+    "snapshot_ids": [
+      "fbf6f25a4d9cb3c5973ff456654e0a14304b60e4409d0220178593f422d81a8a",
+      "8473042b4966ba9d75e37423f1db064c7a0c565ff86aa26a5b2e0f9e5b08b0fc",
+      "f1e7109a8ab401c92361bcf260261139c551256b4863fe0560759cc1b051c4ef",
+      "13ae14da4b8d3c0a13a5a77559155700dfeccace17e16939ad787f0d7eb3db38",
+      "661916b9726df597b051428ed1e5489375dd69a1b8ba20687dfc95766fecd840",
+      "23095375345119aacac5e8ee71b4a0032958925e6f26a74754e4b0b58aa61373"
+    ],
+    "identity": {
+      "schema_version": 3,
+      "baseline": {
+        "id": "13ae14da4b8d3c0a13a5a77559155700dfeccace17e16939ad787f0d7eb3db38",
+        "source": "7b199b4d2d9f12637dafcf4edeb1536f9e5a7d755d913e8b9d3131d7f44eb4fc",
+        "binary": "c51d815eca3210e7367de3fe293c75abfd1c7c15492555bc3449f1b7205d2a04",
+        "model": "06d9d3d631001e8253817f5886725433fb13674aa27479ea87050bf3151f95ab",
+        "seal": "07bba3842f764d7d0c45c0e2484203f675dcbb7761f7c726e9b30a7037b19ae9"
+      },
+      "files": {
+        "tools/evolution-v3.mjs": "e955b5cc7d9916bc38faeacd7f0920427e0bc77c8568c1efa5ded212e19566db",
+        "tools/evolution-v3-core.mjs": "08c305e93f873eca0d9a3454c2df4ee917d0e28346116d47dd5951bc06f26538",
+        "tools/evolution-v3-policy.mjs": "cf5d6a9ef0f264e5807c09e16cfc1a7edf6b3804f19e0ee52ffdfcb03a2f5a7c",
+        "tools/evolution-v3-probe.c": "0680489455312b76810b2c4cd4b34488c827f98eb140c5af17666cba08222e23",
+        "tools/evolution-policy.mjs": "d2a0f3b94785e9726e883655564f38d3fcd54bf1fe087c0fe4574303b9a998cc",
+        "tools/evolution-runtime.mjs": "a57e0fe7960785fc94b1e9a56630f927fedd50b3c3c8e604935a90ca23acbc76",
+        "tools/evaluate.mjs": "aba78c7c42ceccb468d3aab3c7f5dbfd2edef4db5f7c519f2f25df5cb3790144",
+        "tools/selfplay-core.mjs": "293a2c005522f68efd691fffdd17c6cf668433e908f5b595bca2891f2901b15e",
+        "tools/strategy-model.mjs": "7412b62c02897f6d9b1197f33db43a15b0628096ea3a3d8806637f9fda229a84",
+        "bots/configs/fake_demo/game.config.json": "5a68e07dab6235844537b9ef0abdbe764561196646b3e8f892235fd6fedbfc1c",
+        "bots/configs/fake_demo/server.config.json": "9f336d3870828bfcd6b2e8ad095271e0001f97e7d5482e802468f3ead2ef70e1",
+        "bots/c/bot/evolution-v3-bot/supported_game_config.json": "5a68e07dab6235844537b9ef0abdbe764561196646b3e8f892235fd6fedbfc1c",
+        "bots/c/client_lib/core_lib.a": "3639314b3bd52f10c332517fcfe2c5d1c6c7266fbf482b533953476cde14ecd0",
+        "server/server": "2f6d676e7d9c8800309df7b4982074c99cb773c39a342e15221dfdf7d352d9ba"
+      },
+      "source": "3c8bfbe8cd8fde0edfddd6568bc90e02de93ad4d8ea7225b7f2bbf51f4a10997",
+      "flags": "-Wall -Wextra -Werror -O2 -fsanitize=address",
+      "compiler": "cc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0\nCopyright (C) 2023 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n",
+      "runtime": "a57e0fe7960785fc94b1e9a56630f927fedd50b3c3c8e604935a90ca23acbc76"
+    },
+    "finalized": null
+  },
+  {
+    "run": "logs/evolution-smoke2-20261024",
+    "version": 1,
+    "status": "paused",
+    "champion": "e539c7dc8871fff608df8e7316c53b2d4f922456037956d3a7c6f0b23fbeb4bc",
+    "iteration": 2,
+    "snapshots": 7,
+    "snapshot_ids": [
+      "fbf6f25a4d9cb3c5973ff456654e0a14304b60e4409d0220178593f422d81a8a",
+      "8473042b4966ba9d75e37423f1db064c7a0c565ff86aa26a5b2e0f9e5b08b0fc",
+      "f1e7109a8ab401c92361bcf260261139c551256b4863fe0560759cc1b051c4ef",
+      "e539c7dc8871fff608df8e7316c53b2d4f922456037956d3a7c6f0b23fbeb4bc",
+      "9d06d3fc16d217351c23f72f9ce16fcac26a2652d90453f207124c6cbeefe30a",
+      "30daf90da318d53009f05d744fdd836792f416e7ebc7b4186b80f5937fafb96d",
+      "e6ee82a4565ddb1895ed87f0aacc47314390a5c63655597910d75a701c7a2efa"
+    ],
+    "identity": {
+      "files": {
+        "tools/evolution.mjs": "db13b1f761b854027cf8ec9f02fb80f7a04819d4450ca2911e4c7bff972511ce",
+        "tools/evolution-core.mjs": "372b33fad6e8881dde133a56a4f25940e0489161db34433d920126e7667e791b",
+        "tools/evolution-policy.mjs": "334d690fd2ece8046ffd387cb08ce88c22baea3537ae8929b28ff5f68f9236ff",
+        "tools/evolution-probe.c": "349ecb77d34f0a2e6db76cc4a60cb7ceb18521f5e870e6fff0d93639355dd9c9",
+        "tools/evaluate.mjs": "aba78c7c42ceccb468d3aab3c7f5dbfd2edef4db5f7c519f2f25df5cb3790144",
+        "tools/selfplay-core.mjs": "293a2c005522f68efd691fffdd17c6cf668433e908f5b595bca2891f2901b15e",
+        "tools/strategy-model.mjs": "7412b62c02897f6d9b1197f33db43a15b0628096ea3a3d8806637f9fda229a84",
+        "bots/configs/fake_demo/game.config.json": "5a68e07dab6235844537b9ef0abdbe764561196646b3e8f892235fd6fedbfc1c",
+        "bots/configs/fake_demo/server.config.json": "9f336d3870828bfcd6b2e8ad095271e0001f97e7d5482e802468f3ead2ef70e1",
+        "bots/c/client_lib/core_lib.a": "3639314b3bd52f10c332517fcfe2c5d1c6c7266fbf482b533953476cde14ecd0",
+        "server/server": "2f6d676e7d9c8800309df7b4982074c99cb773c39a342e15221dfdf7d352d9ba"
+      },
+      "source": "8b5b0981cb139d2ee4a13f136a0716c2ea470a7da95e709ba79b7ca8c1ffd4c4",
+      "flags": "-Wall -Wextra -Werror -O2 -fsanitize=address",
+      "compiler": "cc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0\nCopyright (C) 2023 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n"
+    },
+    "finalized": null
+  },
+  {
+    "run": "logs/training-dMjjVC",
+    "version": null,
+    "status": null,
+    "champion": null,
+    "iteration": null,
+    "snapshots": 0,
+    "snapshot_ids": [],
+    "identity": null,
+    "finalized": null
+  },
+  {
+    "run": "logs/evolution-v3-initialized-20261024",
+    "version": 3,
+    "status": "paused",
+    "champion": "661916b9726df597b051428ed1e5489375dd69a1b8ba20687dfc95766fecd840",
+    "iteration": 0,
+    "snapshots": 6,
+    "snapshot_ids": [
+      "fbf6f25a4d9cb3c5973ff456654e0a14304b60e4409d0220178593f422d81a8a",
+      "8473042b4966ba9d75e37423f1db064c7a0c565ff86aa26a5b2e0f9e5b08b0fc",
+      "f1e7109a8ab401c92361bcf260261139c551256b4863fe0560759cc1b051c4ef",
+      "13ae14da4b8d3c0a13a5a77559155700dfeccace17e16939ad787f0d7eb3db38",
+      "661916b9726df597b051428ed1e5489375dd69a1b8ba20687dfc95766fecd840",
+      "23095375345119aacac5e8ee71b4a0032958925e6f26a74754e4b0b58aa61373"
+    ],
+    "identity": {
+      "schema_version": 3,
+      "baseline": {
+        "id": "13ae14da4b8d3c0a13a5a77559155700dfeccace17e16939ad787f0d7eb3db38",
+        "source": "7b199b4d2d9f12637dafcf4edeb1536f9e5a7d755d913e8b9d3131d7f44eb4fc",
+        "binary": "c51d815eca3210e7367de3fe293c75abfd1c7c15492555bc3449f1b7205d2a04",
+        "model": "06d9d3d631001e8253817f5886725433fb13674aa27479ea87050bf3151f95ab",
+        "seal": "07bba3842f764d7d0c45c0e2484203f675dcbb7761f7c726e9b30a7037b19ae9"
+      },
+      "files": {
+        "tools/evolution-v3.mjs": "e955b5cc7d9916bc38faeacd7f0920427e0bc77c8568c1efa5ded212e19566db",
+        "tools/evolution-v3-core.mjs": "fbe58d98d545e78d4848d8de5fcdb6349a7b50697f2b16c9a944bb5e73e1bf3c",
+        "tools/evolution-v3-policy.mjs": "cf5d6a9ef0f264e5807c09e16cfc1a7edf6b3804f19e0ee52ffdfcb03a2f5a7c",
+        "tools/evolution-v3-probe.c": "ebe91fdee100a7ccf82ffc9f00d5e9afa652359f4edd1bff6c01cfa2b6b16fc9",
+        "tools/evolution-policy.mjs": "d2a0f3b94785e9726e883655564f38d3fcd54bf1fe087c0fe4574303b9a998cc",
+        "tools/evolution-runtime.mjs": "a57e0fe7960785fc94b1e9a56630f927fedd50b3c3c8e604935a90ca23acbc76",
+        "tools/evaluate.mjs": "aba78c7c42ceccb468d3aab3c7f5dbfd2edef4db5f7c519f2f25df5cb3790144",
+        "tools/selfplay-core.mjs": "293a2c005522f68efd691fffdd17c6cf668433e908f5b595bca2891f2901b15e",
+        "tools/strategy-model.mjs": "7412b62c02897f6d9b1197f33db43a15b0628096ea3a3d8806637f9fda229a84",
+        "bots/configs/fake_demo/game.config.json": "5a68e07dab6235844537b9ef0abdbe764561196646b3e8f892235fd6fedbfc1c",
+        "bots/configs/fake_demo/server.config.json": "9f336d3870828bfcd6b2e8ad095271e0001f97e7d5482e802468f3ead2ef70e1",
+        "bots/c/bot/evolution-v3-bot/supported_game_config.json": "5a68e07dab6235844537b9ef0abdbe764561196646b3e8f892235fd6fedbfc1c",
+        "bots/c/client_lib/core_lib.a": "3639314b3bd52f10c332517fcfe2c5d1c6c7266fbf482b533953476cde14ecd0",
+        "server/server": "2f6d676e7d9c8800309df7b4982074c99cb773c39a342e15221dfdf7d352d9ba"
+      },
+      "source": "3c8bfbe8cd8fde0edfddd6568bc90e02de93ad4d8ea7225b7f2bbf51f4a10997",
+      "flags": "-Wall -Wextra -Werror -O2 -fsanitize=address",
+      "compiler": "cc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0\nCopyright (C) 2023 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n",
+      "runtime": "a57e0fe7960785fc94b1e9a56630f927fedd50b3c3c8e604935a90ca23acbc76"
+    },
+    "finalized": null
+  },
+  {
+    "run": "logs/training-PoAABA",
+    "version": null,
+    "status": null,
+    "champion": null,
+    "iteration": null,
+    "snapshots": 0,
+    "snapshot_ids": [],
+    "identity": null,
+    "finalized": null
+  },
+  {
+    "run": "logs/selfplay-20261024-economy",
+    "version": 1,
+    "status": null,
+    "champion": "5a7b181a6aafdfcb35178c5feb264c5a83cebc1e8e47323da5333b44d93ad364",
+    "iteration": 5,
+    "snapshots": 9,
+    "snapshot_ids": [
+      "a7286ae74958c10d91039b11a4bf634ead6a7ca5e3d1c3cf5c12d1adac33cc3a",
+      "2e415c0d7c58412d8c7a292f777f05e1eec5b8c177eb1166c5b4a2234636b225",
+      "643ea3ca4a9f464bd2428ebe7c13a9fe5a8e33b27ee00ab2b59c4f6904a7a163",
+      "29c19372421388d99210f7ee61f173e960bebbf8a26d4f42c00fa48797b0af1d",
+      "5a7b181a6aafdfcb35178c5feb264c5a83cebc1e8e47323da5333b44d93ad364",
+      "bea003906e560ba182c50e551c6f6a89bddfc0f5f4cdfd0a01ef59168885f8b4",
+      "06cfde0d3b65f19a9e9c8529fdb2eb994c39873bdd8368742760f762dd8237eb",
+      "7fa4d791a850bf2153a7fed61b94ddcc9813fdbed02603b816799a83bae6d4ea",
+      "b802885f917c6b080362bb84a841b053a1fb85d20492d68dba955d8cae535b1d"
+    ],
+    "identity": {
+      "strategy": "a017265eec31847da07f66b4f6fb4813fd79c2f707c0a7d4ba5d1fd998feff6f",
+      "baseline": "2750f44359f7ec175c4318cd817ea73c805d6a60e2ee45bf49ad0e4c2fb3fd0d",
+      "gridmaster": "dd1bfbb4dbc145f08a3a010173e3ddefe18c912226a19b60848555d24986f592",
+      "tools": "42053e2eeff8474a4b736d01dd7c53f2457c9d77b575fc9eeae2ece495824cef",
+      "game": "5a68e07dab6235844537b9ef0abdbe764561196646b3e8f892235fd6fedbfc1c",
+      "server_config": "9f336d3870828bfcd6b2e8ad095271e0001f97e7d5482e802468f3ead2ef70e1",
+      "engine": "2f6d676e7d9c8800309df7b4982074c99cb773c39a342e15221dfdf7d352d9ba",
+      "client": "3639314b3bd52f10c332517fcfe2c5d1c6c7266fbf482b533953476cde14ecd0"
+    },
+    "finalized": true
+  }
+]

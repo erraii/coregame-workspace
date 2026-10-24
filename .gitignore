@@ -6,6 +6,7 @@ replay_latest.json
 /logs/
 /replays/
 /.match-lock/
+/.training-lock/
 /.npm-cache/
 node_modules/
 build/

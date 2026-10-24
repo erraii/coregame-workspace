@@ -1,0 +1,41 @@
+{
+  "frozen_champion": "13ae14da4b8d3c0a13a5a77559155700dfeccace17e16939ad787f0d7eb3db38",
+  "baseline": "/workspaces/monorepo/preserved/evolution-v3-baseline-13ae14da4b8d",
+  "snapshot": {
+    "id": "13ae14da4b8d3c0a13a5a77559155700dfeccace17e16939ad787f0d7eb3db38",
+    "label": "candidate-9",
+    "params": {
+      "miners": 2,
+      "guards": 3,
+      "carriers": 1,
+      "economy_end": 400,
+      "late_miners": 1,
+      "threat_radius": 12,
+      "defense_gain": 1,
+      "attack_commit": 0,
+      "avoid_weight": 16,
+      "return_load": 35,
+      "carrier_load": 50,
+      "resource_home": 2,
+      "guard_radius": 12,
+      "target_bias": 2,
+      "attacker_design": 1
+    },
+    "source": "7b199b4d2d9f12637dafcf4edeb1536f9e5a7d755d913e8b9d3131d7f44eb4fc",
+    "binary": "c51d815eca3210e7367de3fe293c75abfd1c7c15492555bc3449f1b7205d2a04",
+    "model": "06d9d3d631001e8253817f5886725433fb13674aa27479ea87050bf3151f95ab",
+    "build": {
+      "command": "make",
+      "args": [
+        "-C",
+        "/workspaces/monorepo/logs/evolution-hour-002/snapshots/13ae14da4b8d3c0a13a5a77559155700dfeccace17e16939ad787f0d7eb3db38",
+        "CLIENT_LIB_DIR=/workspaces/monorepo/bots/c/client_lib",
+        "EXEC=bot",
+        "-B",
+        "CFLAGS=-Wall -Wextra -Werror -O2 -fsanitize=address"
+      ],
+      "compiler": "cc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0\nCopyright (C) 2023 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n"
+    }
+  },
+  "note": "Handwritten V3 extensions; disabled-feature action equivalence must be tested; no learned improvement claim"
+}
