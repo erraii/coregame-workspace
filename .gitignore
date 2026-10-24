@@ -1,3 +1,23 @@
 replay_latest.json
 .DS_Store
 .idea
+
+# Local development output
+/logs/
+/replays/
+/.match-lock/
+/.npm-cache/
+node_modules/
+build/
+obj/
+*.o
+*.a
+
+# Compiled executables
+/server/server
+/bots/c/bot/*/bot
+/bots/c/bot/*/gridmaster
+
+# Generated visualizer output
+/visualizer/dist/
+/visualizer/public/replays/*.json

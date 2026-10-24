@@ -10,7 +10,7 @@ int main(int argc, char **argv)
 void ft_on_tick(unsigned long tick)
 {
 	(void)tick;
-	core_action_createUnit("Warrior", "combat", NULL);
+	core_action_createUnit("Warrior", "core_attack", NULL);
 
 	t_obj **units = ft_get_units_own();
 	t_obj *target = ft_get_core_opponent();

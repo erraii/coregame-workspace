@@ -16,7 +16,7 @@ void ft_on_tick(unsigned long tick)
 {
 	(void)tick;
 
-	core_action_createUnit("Gridfighter", "combat", "siege", "health", NULL);
+	core_action_createUnit("Gridfighter", "core_attack", "health", NULL);
 
 	t_obj *target =
 		core_get_obj_filter_nearest((t_pos){0, 0}, is_core_opponent);
